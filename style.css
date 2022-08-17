@@ -1,0 +1,144 @@
+.header {
+    padding: 1em;
+    margin: 1em;
+    background-color: lightgoldenrodyellow;
+    border-radius: 1em;
+    text-align: center
+}
+
+h1 {
+    text-align: center;
+}
+
+.cartbox {
+    padding: 1em;
+    margin: 1em;
+    /*width: max-content;*/
+    border-radius: 1em;
+    align-self: center;
+    align-content: center;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.cart {
+    /*border: 1px solid;*/
+    padding: 1em;
+    margin: 1em;
+    /*width: fit-content;*/
+    border-radius: 1em;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+@media (min-width: 680px) {
+    .cart {
+        display: flex;
+    }
+}
+
+body {
+    background-color: lightslategray;
+}
+
+.input {
+    margin: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    /*width: auto;
+    align-content: center;*/
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+    /* height: 50px; */
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+
+}
+
+.message {
+    padding: 1em;
+    /* color: grey; */
+    font-weight: bold;
+    /*background-color: lightgrey;*/
+}
+
+.input {
+    padding: 1em;
+}
+
+.btn {
+    padding: 1em 0em 1em 0em;
+    width: 5em;
+    background-color: lightblue;
+    color: grey;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0.25em;
+}
+
+.btn:hover {
+    background-color: lightskyblue;
+}
+
+.Pizzas {
+    padding: 1em;
+    margin: 1em;
+    /*width: max-content;*/
+    border-radius: 1em;
+    align-self: center;
+    align-content: center;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.featured {
+    background-color: lightgrey;
+    /*color: grey;*/
+    padding: 10px;
+    margin-right: 1em;
+    margin-left: 1em;
+    border: none;
+    border-radius: 1em;
+    /*outline: none;
+    transition: 0.4s;*/
+    text-align: center;
+}
+
+.deals {
+    align-self: center;
+    align-content: center;
+    padding: 1em;
+    margin: 1em;
+    /*width: max-content;*/
+    border-radius: 1em;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.footer {
+    width: 95%;
+    /*border: 1px solid;*/
+    padding: 1em;
+    margin: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    display: inline-flex;
+}
+
+.address {
+    margin-left: 50%;
+}
